@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+option java_package = "com.aksharp.proto";
+
+enum CacheType {
+    SERVER_CACHE = 1;
+    CONSUMER_CACHE = 2;
+}

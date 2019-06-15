@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+option java_package = "com.aksharp.proto";
+import "MyEnum.proto";
+
+message ServerCacheKey {
+    required string key = 1;
+    optional int32 version = 2 [default = 8];
+    optional CacheType cache = 3 [default = SERVER_CACHE];
+}
+
+message ServerCacheValue {
+    repeated double field1 = 1;
+    optional double field2 = 2;
+}
