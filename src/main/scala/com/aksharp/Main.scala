@@ -1,4 +1,4 @@
-package com.tremorvideo
+package com.aksharp
 
 object Main extends App {
 
